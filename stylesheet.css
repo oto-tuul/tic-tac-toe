@@ -64,6 +64,7 @@ html {
     height: max-content;
     grid-template-columns: repeat(3, max-content);
     grid-template-rows: repeat(3, max-content);
+    margin-top: 20px;
 }
 
 .gameBoard {
@@ -73,9 +74,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 2vw 0 2vw;
-    /* width: max-content;
-    height: max-content; */
+    padding: 0 0vw 0 0vw;
+    width: 8vw;
+    height: 8vw;
 }
 
 [id='1'], [id='4'], [id='7'] {
